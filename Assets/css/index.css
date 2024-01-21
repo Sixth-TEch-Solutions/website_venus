@@ -1,0 +1,5 @@
+.content {
+  background: url("../image/Frame 1.png") no-repeat;
+  background-size: cover; /* Untuk memastikan gambar mengisi area dengan proporsi yang benar */
+  background-position: top; /* Penempatan gambar di bagian atas */
+}

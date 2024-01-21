@@ -1,0 +1,10 @@
+.text-pading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#header {
+  border-bottom: 3px solid #000; /* Ganti #000 dengan warna garis yang diinginkan */
+}

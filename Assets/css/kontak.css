@@ -1,0 +1,32 @@
+.gambar-cover {
+  background: url("../image/corusel2.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan Anda */
+  margin: 0; /* Menambahkan margin di sekitar elemen */
+  align-items: center; /* Menyusun teks di tengah secara vertikal */
+  justify-content: center;
+  overflow: hidden;
+  z-index: 150;
+}
+
+.gambar-cover h1 {
+  padding: 100px;
+  color: #000000;
+  font-size: 50px;
+  margin-top: 6vh;
+  text-align: center;
+  font-weight: bold; /* Menyusun teks di tengah secara horizontal */
+}
+
+@media (max-width: 1200px) {
+  .gambar-cover {
+    height: 600px; /* Ubah tinggi gambar untuk layar kecil */
+  }
+}
+
+@media (max-width: 720px) {
+  .gambar-cover {
+    height: 300px; /* Ubah tinggi gambar untuk layar kecil */
+  }
+}

@@ -1,0 +1,80 @@
+#footer {
+  background-color: #fffdef;
+  border-top: #ff4343 solid 3px;
+}
+
+.card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(180, 144, 23, 0.1) 0px 1px 2px 0px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.btn-primary {
+  border-radius: 50px;
+  width: 120px;
+}
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+
+h3,
+h6 {
+  color: rgb(228, 0, 0);
+}
+
+.propertis-content {
+  position: relative;
+  top: -20px;
+}
+
+#Produk {
+  position: relative;
+  margin-top: -20rem;
+}
+
+.red-line {
+  border-top: 2px solid red;
+  margin: 10px 0;
+}
+
+.nav-text-footer {
+  margin-left: 8px;
+}
+
+.nav-footer {
+  display: flex;
+  align-items: center;
+}
+
+.nav-kunjungi-kami {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-kunjungi-kami-li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* GAMBAR ONLINE SHOP */
+.image-container {
+  border-top: 2px solid red;
+  display: flex; /* Menggunakan flexbox untuk menyusun gambar-gambar secara horizontal */
+  justify-content: center; /* Menyusun gambar-gambar di tengah secara horizontal */
+  align-items: center;
+}
+
+.image-container img {
+  margin: 20px 40px;
+  width: 350px; /* Mengatur lebar gambar menjadi 30% dari lebar container */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}

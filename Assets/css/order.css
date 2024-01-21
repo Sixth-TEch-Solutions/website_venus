@@ -1,0 +1,138 @@
+#form {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff4343;
+}
+
+.form-container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color: #FFFDEF;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(180, 144, 23, 0.1);
+}
+
+.form-container .title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.form-container .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    width: 80px;
+    background-color: #ff4343;
+    border-radius: 8px;
+}
+
+.form-container form .form {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #000;
+}
+
+.form-container form .box {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-container form .buyer-details {
+    margin: 10px;
+}
+
+.form-container form .order-details {
+    margin: 10px;
+}
+
+.form-container form .form-first {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.form-container form .form-second {
+    opacity: 0;
+    pointer-events: none;
+}
+
+form.secActive .form-second {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+form.secActive .form-first {
+    opacity: 0;
+    pointer-events: none;
+}
+
+form .box .input-box {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+form .box .input-box .details {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+.form-container form {
+    position: relative;
+    margin-top: 13px;
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.form-container form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ff4343;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #ff4343;
+}
+
+.form-container form button i {
+    margin: 0 6px;
+}
+
+form .buttons {
+    display: flex;
+    align-items: center;
+}
+
+form .buttons button {
+    margin-right: 14px;
+    min-height: 45px;
+    width: 200px;
+}
